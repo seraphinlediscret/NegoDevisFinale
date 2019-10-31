@@ -1,0 +1,174 @@
+// ******GENERAL APPEARANCE****** //
+
+html, body {
+    background-color: #fff;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+
+// ******RULES****** //
+
+// Bloc's organisation
+.rules-section
+{
+    width: 90vw;
+    margin: auto;
+    border-radius: 5px ;
+}
+
+.negociation-rules-title
+{
+    background:#24AFFF;
+    font-size: 2.7rem;
+    text-align: center;
+    border-radius: 5px ;
+    padding: 2%;
+}
+
+.negociation-rules-title
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 5vh;
+}
+
+// Rules' listing's appearance 
+.rules-listing
+{
+    background: rgb(224, 224, 224);
+    border-radius: 5px ;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#rule
+{
+    background: rgb(149, 149, 149);
+    color: white;
+    width: 50vw;
+    height: 45vh;
+    font-size: 1.5rem;
+    padding: 1.5%;
+}
+
+#rule-illustration
+{
+    background: white;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    width: 30vw;
+    height: 45vh;
+}
+
+#rule-img
+{
+    display: block;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.rule-association
+{
+    display: flex;
+}
+
+#rule-declaration
+{
+    font-size: 1.2rem;
+}
+
+#rule-title
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2vh ;
+    border-bottom: solid 1px white;
+    padding-bottom: 3%;
+}
+
+// Organisation of the rule's pagination
+.pagination
+{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.rules-pagination
+{
+    width: 20vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin: auto;
+    margin-top: 4vh;
+    color: rgb(97, 97, 97);
+    font-weight: bold;
+}
+
+.rules-pagination-elmt
+{
+    display: block;
+}
+
+.rules-pagination-elmt:hover
+{
+    cursor: pointer;
+    color: white;
+}
+
+.shortcuts
+{
+    margin: auto;
+}
+
+//******BUTTONS******//
+
+//Button's organisation
+.button-section
+{
+    width: 15vw;
+    margin-left: 66.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+//Buttons' appearance
+.negotiation-button
+{
+    color: white;
+    background:#24AFFF;
+    font-weight: bold;
+    border-radius: 5px ;
+    padding: 10px   ;
+    border: none;
+}
+
+.home-back-button
+{
+    color: white;
+    background:#24AFFF;
+    font-weight: bold;
+    border-radius: 5px ;
+    padding: 10px;
+    border: none;
+}
+
+//Buttons' action
+.negotiation-button:hover
+{
+    cursor: pointer;
+}
+
+.home-back-button:hover
+{
+    cursor: pointer;
+}
+
+

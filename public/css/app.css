@@ -1,0 +1,662 @@
+.links {
+  background-color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
+.farm {
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: row;
+  border-radius: 30px;
+  position: relative;
+  top: 1vh;
+}
+
+input {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.s1 {
+  position: absolute;
+  right: -10px;
+  top: 45px;
+}
+
+.s2 {
+  position: absolute;
+  right: -10px;
+  top: 45px;
+}
+
+.s3 {
+  position: absolute;
+  right: -60px;
+  top: 45px;
+}
+
+.val {
+  width: 23vw;
+  margin-bottom: 50px;
+}
+
+.titi {
+  font-size: 20px;
+  color: #636b6f;
+  font-weight: bold;
+}
+
+.unit {
+  position: absolute;
+  left: 169px;
+  top: 38px;
+}
+
+.unitmin {
+  position: absolute;
+  left: 650px;
+  top: 124px;
+}
+
+.unitpour {
+  position: absolute;
+  left: 168px;
+  top: 210px;
+}
+
+.card {
+  display: none;
+  position: absolute;
+  top: 75px;
+  right: 70px;
+}
+
+#valid {
+  position: relative;
+  left: 1071px;
+  top: -75px;
+}
+
+.inpu {
+  margin-left: 10px;
+}
+
+.firstthree {
+  width: 10%;
+  margin-left: 168px;
+  margin-right: 350px;
+}
+
+.secondthree {
+  width: 10%;
+}
+
+.field {
+  width: 65%;
+}
+
+#validaction {
+  height: 52px;
+  margin-top: 18px;
+  position: relative;
+  bottom: 0px;
+  color: white;
+  font-weight: bold;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+a {
+  margin-left: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.cardinput {
+  width: 30vw;
+}
+
+#parameters-title {
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+#containerparam {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  top: 200px;
+  background-color: white;
+  width: 100%;
+}
+
+#ixi {
+  position: absolute;
+  right: 450px;
+  top: 1px;
+}
+
+#open {
+  position: relative;
+  background-color: #FFD21C;
+  border: none;
+  top: 1px;
+  left: 14px;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 10vh;
+  font-weight: bold;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.applic {
+  margin-left: 15px;
+}
+
+#paratime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#tourcontent {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  color: gray;
+  margin-right: 3.5vw;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#count {
+  color: crimson;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#well {
+  top: 349px;
+  left: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+#bvn {
+  font-size: 2.2rem;
+  color: #636b6f;
+}
+
+.titbvn {
+  color: #636b6f;
+  text-decoration: none;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 5vh;
+}
+
+#divini {
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #FFD21C;
+  border-radius: 10px;
+  font-size: 30px;
+  height: 65px;
+  margin-top: 51px;
+}
+
+#divini-text {
+  font-size: 1.2rem;
+}
+
+#priceini,
+#price-currency {
+  font-size: 1.5rem;
+}
+
+#stop {
+  font-size: 40px;
+  color: red;
+  display: none;
+  position: absolute;
+  left: 120px;
+  top: 350px;
+  background-color: white;
+  flex-direction: column;
+  z-index: 1;
+  padding: 55px;
+  text-align: center;
+}
+
+#btnend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#bcfull {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+#warning-message {
+  margin: auto;
+}
+
+#accept,
+#refus {
+  font-weight: bold;
+}
+
+.table {
+  margin-top: 5vh;
+}
+
+#allheaderelements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin-left: 67px;
+  margin-top: 43px;
+}
+
+#theapplinego {
+  display: none;
+}
+
+#negodevis {
+  border: 1px solid blue;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#valprop {
+  display: flex;
+  flex-direction: row;
+}
+
+.propok {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.newprop {
+  width: 300px;
+  margin-right: 50px;
+  position: relative;
+  bottom: -24px;
+}
+
+#thenego {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.accept,
+.refus {
+  margin-left: 38px;
+  height: 50px;
+  margin-top: 19px;
+}
+
+#exitandtour {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  font-size: 1rem;
+  margin-left: 147px;
+}
+
+#exyt {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  width: 26vw;
+}
+
+#yesorno {
+  display: none;
+}
+
+#navappli {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+#container {
+  border-radius: 100px;
+  font-weight: bold;
+  width: 137px;
+  padding: 5px;
+  text-align: center;
+  background: #b3b3b3;
+}
+
+#timer {
+  color: white;
+  font-size: 30px;
+  margin: 37px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+#time {
+  margin-top: 5px;
+  z-index: 1;
+  position: relative;
+}
+
+#filler {
+  background: red;
+  height: 0px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+}
+
+#pomodoro-app {
+  margin-left: 293px;
+}
+
+.blockall {
+  text-align: center;
+  color: white;
+}
+
+.titletable {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+table {
+  margin-top: 20px;
+  margin-left: 65px;
+  width: 90% !important;
+}
+
+.cell {
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.seller-price-cell {
+  background-color: #FFD21C;
+}
+
+.buyer-price-cell {
+  background-color: #24AFFF;
+}
+
+.counter-cell {
+  border-radius: 50px;
+  background-color: #5C5C5C;
+  width: 50px;
+  margin: auto;
+}
+
+.wanted-price-cell {
+  background-color: #0ACC51;
+}
+
+.sold-cell {
+  background-color: #ED5F00;
+}
+
+.countone {
+  background-color: rgba(66, 60, 60, 0.8);
+  border-radius: 50px;
+  width: 50px;
+  margin: auto;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.selfone {
+  background-color: #FFD21C;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buythree {
+  background-color: rgba(27, 118, 236, 0.8);
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wantfour {
+  background-color: rgba(28, 184, 28, 0.8);
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.soldone {
+  background-color: rgba(226, 36, 36, 0.8);
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+html,
+body {
+  background-color: #fff;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.rules-section {
+  width: 90vw;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.negociation-rules-title {
+  background: #24AFFF;
+  font-size: 2.7rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.negociation-rules-title {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 5vh;
+}
+
+.rules-listing {
+  background: #e0e0e0;
+  border-radius: 5px;
+  padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#rule {
+  background: #959595;
+  color: white;
+  width: 50vw;
+  height: 45vh;
+  font-size: 1.5rem;
+  padding: 1.5%;
+}
+
+#rule-illustration {
+  background: white;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  width: 30vw;
+  height: 45vh;
+}
+
+#rule-img {
+  display: block;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.rule-association {
+  display: flex;
+}
+
+#rule-declaration {
+  font-size: 1.2rem;
+}
+
+#rule-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2vh;
+  border-bottom: solid 1px white;
+  padding-bottom: 3%;
+}
+
+.pagination {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.rules-pagination {
+  width: 20vw;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin: auto;
+  margin-top: 4vh;
+  color: #616161;
+  font-weight: bold;
+}
+
+.rules-pagination-elmt {
+  display: block;
+}
+
+.rules-pagination-elmt:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.shortcuts {
+  margin: auto;
+}
+
+.button-section {
+  width: 15vw;
+  margin-left: 66.5vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.negotiation-button {
+  color: white;
+  background: #24AFFF;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.home-back-button {
+  color: white;
+  background: #24AFFF;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.negotiation-button:hover {
+  cursor: pointer;
+}
+
+.home-back-button:hover {
+  cursor: pointer;
+}
+

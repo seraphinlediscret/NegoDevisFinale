@@ -1,0 +1,70 @@
+#theapplinego{
+    display: none;
+}
+
+#negodevis{
+border:1px solid blue;
+margin-top:20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+/////////validation//////////
+#valprop{
+    display: flex;
+    flex-direction: row;
+}
+.propok{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.newprop{
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: -24px;
+
+}
+#thenego{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.accept, .refus{
+    margin-left: 38px;
+    height: 50px;
+    margin-top: 19px;
+}
+#exitandtour{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    font-size: 1rem;
+    margin-left: 147px;
+}
+
+#exyt{
+    font-size: 1.2rem;
+    padding:10px;
+    border-radius: 10px;
+    margin-right:10px;
+    font-weight: bold;
+    width: 26vw;
+}
+#yesorno{
+    display: none;
+}
+#navappli{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+
+
+
